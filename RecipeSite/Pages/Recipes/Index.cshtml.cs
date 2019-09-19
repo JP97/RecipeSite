@@ -20,6 +20,7 @@ namespace RecipeSite.Pages.Recipes
         }
 
         public IList<Recipe> Recipe { get;set; }
+        public IList<Rating> Rating { get; set; }
 
         public async Task OnGetAsync()
         {
